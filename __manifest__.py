@@ -12,7 +12,7 @@
     ],
     'category':'Branding',
     'description': """
-           Odoo Enterprise Theme
+           Odoo Enterprise Theme Edited by Me!!
     """,
     'assets': {
         'web._assets_primary_variables': [
