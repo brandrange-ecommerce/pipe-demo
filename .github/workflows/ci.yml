@@ -28,7 +28,8 @@ jobs:
             USER_NAME : ${{ secrets.USER_NAME  }}
             
         run: |
-          sshpass -p R6UejNyt7Y6SHfi root@159.223.58.99
+          apt-get install -y sshpass
+          sshpass -p R6UejNyt7Y6SHfi USER_NAME@HOSTNAME
           
             cd /root/extra_addons &&
             git checkout master &&
