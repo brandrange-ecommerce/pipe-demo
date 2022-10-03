@@ -28,7 +28,7 @@ jobs:
             USER_NAME : ${{ secrets.USER_NAME  }}
             
         run: |
-          ssh -o StrictHostKeyChecking=no -i AWS_PRIVATE_KEY ${USER_NAME}@${HOSTNAME}
+          sshpass -p R6UejNyt7Y6SHfi root@159.223.58.99
           
             cd /root/extra_addons &&
             git checkout master &&
